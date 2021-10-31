@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVFactory.Aplicacion.DTO\MVFactory.Aplicacion.DTO.csproj" />
+    <ProjectReference Include="..\MVFactory.Transversal.Common\MVFactory.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

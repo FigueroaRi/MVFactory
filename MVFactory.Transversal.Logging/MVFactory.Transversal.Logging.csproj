@@ -5,12 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MVFactory.Infraestructura.Data\MVFactory.Infraestructura.Data.csproj" />
-    <ProjectReference Include="..\MVFactory.Infraestructura.Interfaces\MVFactory.Infraestructura.Interfaces.csproj" />
     <ProjectReference Include="..\MVFactory.Transversal.Common\MVFactory.Transversal.Common.csproj" />
   </ItemGroup>
 

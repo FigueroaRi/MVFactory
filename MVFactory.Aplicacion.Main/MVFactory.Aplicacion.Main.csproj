@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="RestSharp" Version="106.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVFactory.Aplicacion.DTO\MVFactory.Aplicacion.DTO.csproj" />
+    <ProjectReference Include="..\MVFactory.Aplicacion.Interface\MVFactory.Aplicacion.Interface.csproj" />
+    <ProjectReference Include="..\MVFactory.Aplicacion.Validador\MVFactory.Aplicacion.Validador.csproj" />
+    <ProjectReference Include="..\MVFactory.Domain.Entity\MVFactory.Domain.Entity.csproj" />
+    <ProjectReference Include="..\MVFactory.Domain.Interface\MVFactory.Domain.Interface.csproj" />
+    <ProjectReference Include="..\MVFactory.Transversal.Common\MVFactory.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

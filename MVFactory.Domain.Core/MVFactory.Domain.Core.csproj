@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MVFactory.Domain.Entity\MVFactory.Domain.Entity.csproj" />
+    <ProjectReference Include="..\MVFactory.Domain.Interface\MVFactory.Domain.Interface.csproj" />
+    <ProjectReference Include="..\MVFactory.Infraestructura.Interfaces\MVFactory.Infraestructura.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,8 +4,4 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MVFactory.Domain.Entity\MVFactory.Domain.Entity.csproj" />
-  </ItemGroup>
-
 </Project>

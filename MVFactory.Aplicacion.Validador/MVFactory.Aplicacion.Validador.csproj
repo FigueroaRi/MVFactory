@@ -5,12 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.3.4" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\MVFactory.Aplicacion.DTO\MVFactory.Aplicacion.DTO.csproj" />
-    <ProjectReference Include="..\MVFactory.Domain.Entity\MVFactory.Domain.Entity.csproj" />
   </ItemGroup>
 
 </Project>

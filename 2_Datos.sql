@@ -62,29 +62,3 @@ VALUES ('144','Afganistán'          ),
 ('90','Filipinas'					 ),
 ('63','Finlandia'					 ),
 ('64','Francia'						 )
-
-
-INSERT INTO  [dbo].[Ciudades]
-([Codigo],[idPais],[Nombre] )
-VALUES (1,1,'Sydney'),
- (2,1,'Brisbane'),
- (3,1,'Melbourne'),
- (4,1,'Perth'),
- (5,1,'Gold Coast'),
- (6,1,'Byron Bay'),
-  (1,2,'Viena'),
- (2,2,'Graz'),
- (3,2,'Linz'),
- (4,2,'Salzburgo'),
- (5,2,'Innsbruck'),
-  (1,5,'Salta'),
-  (2,5,'Cordoba'),
-  (3,5,'Buernos Aires'),
-  (4,5,'Mendoza'),
-  (5,5,'Santa Fe')
-
-
-INSERT INTO [dbo].[Users] ([UserId],[FirstName] ,[LastName] ,[UserName],[Password])
-vALUES (1,'Ricardo','Figueroa','rfigueroa','123xlo*mm6y')
-
-
